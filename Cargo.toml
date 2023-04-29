@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "src/common/core",
+    "src/bin/management-server"
+]
+[workspace.dependencies]
+serde = { version = "1.0.160", features = ["derive"] }
+
+serde_json = { version = "1.0.96"}
